@@ -1,8 +1,6 @@
 package com.w951.zsbus.staffchannel.entity;
 // default package
 
-import java.sql.Timestamp;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
