@@ -1,4 +1,4 @@
-package com.w951.zsbus.staffchannel.action;
+package com.w951.zsbus.staffchannel.api;
 
 import java.util.Map;
 
@@ -7,31 +7,16 @@ import net.sf.json.JSONObject;
 
 import com.w951.util.action.CommonBaseAction;
 
-public class MainAction extends CommonBaseAction {
+public class BranchAPI extends CommonBaseAction {
 	private static final long serialVersionUID = -1L;
 	private JSONObject result;
 	private JSONArray resultArray;
 	private Map<String, Object> request;
 	private Map<String, Object> session;
 	
-	// Page
+	// Action
 	
-    public String system() throws Exception {
-    	return SUCCESS;
-    }
-    
-    public String notice() throws Exception {
-    	return SUCCESS;
-    }
-    
-    public String branch() throws Exception {
-    	return SUCCESS;
-    }
-    
-    public String staff() throws Exception {
-    	return SUCCESS;
-    }
-    
+	
 	// getter setter
 
 	public JSONObject getResult() {

@@ -10,6 +10,9 @@
 .icon-remove{
 	background:url('icons/page_white_delete.png') no-repeat center center;
 }
+.icon-move{
+	background:url('icons/page_white_go.png') no-repeat center center;
+}
 .icon-save{
 	background:url('icons/page_save.png') no-repeat center center;
 }

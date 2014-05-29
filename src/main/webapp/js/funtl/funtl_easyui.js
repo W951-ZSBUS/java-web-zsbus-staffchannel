@@ -276,6 +276,38 @@ var funtl_easyui_formatter = {
 	},
 	
 	/**
+	 * 格式化政治面貌
+	 * @param val
+	 * @param row
+	 * @returns {String}
+	 */
+	political : function(val, row) {
+		if (val == 0) {
+			return "群众";
+		} else if(val == 1){
+			return "团员";
+		} else {
+			return "党员";
+		}
+	},
+	
+	/**
+	 * 格式化婚姻情况
+	 * @param val
+	 * @param row
+	 * @returns {String}
+	 */
+	marriage : function(val, row) {
+		if (val == 0) {
+			return "未婚";
+		} else if(val == 1){
+			return "已婚";
+		} else {
+			return "离婚";
+		}
+	},
+	
+	/**
 	 * 文章分类
 	 * @param val
 	 * @param row
